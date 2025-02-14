@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "input",
+      "data": { "label": "Başlangıç" },
+      "position": { "x": 400, "y": 50 },
+      "style": { "background": "#4CAF50", "color": "#fff" }
+    },
+    {
+      "id": "1.1",
+      "data": { "label": "Fikir Geliştirme" },
+      "position": { "x": 200, "y": 100 },
+      "style": { "background": "#81C784", "color": "#fff" }
+    },
+    {
+      "id": "1.2",
+      "data": { "label": "Gereksinim Analizi" },
+      "position": { "x": 600, "y": 100 },
+      "style": { "background": "#66BB6A", "color": "#fff" }
+    },
+
+    {
+      "id": "2",
+      "data": { "label": "Planlama" },
+      "position": { "x": 400, "y": 200 },
+      "style": { "background": "#FF9800", "color": "#fff" }
+    },
+    {
+      "id": "2.1",
+      "data": { "label": "Teknoloji Seçimi" },
+      "position": { "x": 200, "y": 250 },
+      "style": { "background": "#FFB74D", "color": "#fff" }
+    },
+    {
+      "id": "2.2",
+      "data": { "label": "Proje Zaman Çizelgesi" },
+      "position": { "x": 600, "y": 250 },
+      "style": { "background": "#FFA726", "color": "#fff" }
+    },
+
+    {
+      "id": "3",
+      "data": { "label": "Geliştirme" },
+      "position": { "x": 400, "y": 350 },
+      "style": { "background": "#2196F3", "color": "#fff" }
+    },
+    {
+      "id": "3.1",
+      "data": { "label": "Frontend" },
+      "position": { "x": 200, "y": 400 },
+      "style": { "background": "#64B5F6", "color": "#fff" }
+    },
+    {
+      "id": "3.2",
+      "data": { "label": "Backend" },
+      "position": { "x": 600, "y": 400 },
+      "style": { "background": "#42A5F5", "color": "#fff" }
+    },
+    {
+      "id": "3.3",
+      "data": { "label": "Veritabanı Yönetimi" },
+      "position": { "x": 400, "y": 450 },
+      "style": { "background": "#1E88E5", "color": "#fff" }
+    },
+
+    {
+      "id": "4",
+      "data": { "label": "Test" },
+      "position": { "x": 400, "y": 550 },
+      "style": { "background": "#9C27B0", "color": "#fff" }
+    },
+    {
+      "id": "4.1",
+      "data": { "label": "Birim Testleri" },
+      "position": { "x": 200, "y": 600 },
+      "style": { "background": "#BA68C8", "color": "#fff" }
+    },
+    {
+      "id": "4.2",
+      "data": { "label": "Entegrasyon Testleri" },
+      "position": { "x": 600, "y": 600 },
+      "style": { "background": "#AB47BC", "color": "#fff" }
+    },
+
+    {
+      "id": "5",
+      "data": { "label": "Yayına Alma" },
+      "position": { "x": 400, "y": 700 },
+      "style": { "background": "#F44336", "color": "#fff" }
+    },
+    {
+      "id": "5.1",
+      "data": { "label": "DevOps & CI/CD" },
+      "position": { "x": 200, "y": 750 },
+      "style": { "background": "#EF5350", "color": "#fff" }
+    },
+    {
+      "id": "5.2",
+      "data": { "label": "Canlı İzleme & Bakım" },
+      "position": { "x": 600, "y": 750 },
+      "style": { "background": "#E53935", "color": "#fff" }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "source": "1",
+      "target": "2",
+      "animated": true,
+      "style": { "stroke": "#000" }
+    },
+    {
+      "id": "e2-3",
+      "source": "2",
+      "target": "3",
+      "animated": true,
+      "style": { "stroke": "#000" }
+    },
+    {
+      "id": "e3-4",
+      "source": "3",
+      "target": "4",
+      "animated": true,
+      "style": { "stroke": "#000" }
+    },
+    {
+      "id": "e4-5",
+      "source": "4",
+      "target": "5",
+      "animated": true,
+      "style": { "stroke": "#000" }
+    },
+
+    {
+      "id": "e1-1.1",
+      "source": "1",
+      "target": "1.1",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e1-1.2",
+      "source": "1",
+      "target": "1.2",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e2-2.1",
+      "source": "2",
+      "target": "2.1",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e2-2.2",
+      "source": "2",
+      "target": "2.2",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e3-3.1",
+      "source": "3",
+      "target": "3.1",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e3-3.2",
+      "source": "3",
+      "target": "3.2",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e3-3.3",
+      "source": "3",
+      "target": "3.3",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+
+    {
+      "id": "e4-4.1",
+      "source": "4",
+      "target": "4.1",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e4-4.2",
+      "source": "4",
+      "target": "4.2",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e5-5.1",
+      "source": "5",
+      "target": "5.1",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    },
+    {
+      "id": "e5-5.2",
+      "source": "5",
+      "target": "5.2",
+      "animated": false,
+      "style": { "stroke": "#555" }
+    }
+  ]
+}
